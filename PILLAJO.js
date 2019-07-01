@@ -1,3 +1,6 @@
+//AUTOR:KEVIN PILLAJO
+//DESCRIPCION:Declarar tres objetos de nombre Hugo, Paco y Luis.   Cada objeto debe tener estos atributos:  nombre, edad, ciudad.   Usted debe asignar edades y ciudades a cada objeto.
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,8 +50,7 @@ amigos.push(luis.edad, luis.cuidad, luis.nombre);
 //Imprimir en consola la longitud del array amigos
 amigos.length
 
-//Declarar una variable numeroDeAmigos y guardar el número de elementos que tiene el array (usando la propiedad que devuelve el número de elementos de un array).
-
+//Declarar una variable numeroDeAmigos y guardar el número de elementos que tiene el array 
 var numeroDeAmigos= amigos.length;
 
 //Hacer una función que se llame saludo, la función recibe como parámetro un objeto,  si la edad es par: imprime en consola “Saluton kaj bonvenon”.  Cuando la edad es impar imprime en consola “Hello moto”.
@@ -63,8 +65,7 @@ var saludo=function(year){
     }
     
 }
-//Hacer una función de nombre arriba  que recibe un objeto por parámetro e imprime en consola desde el uno, de manera ascendente hasta el atributo edad del objeto recibido como parámetro.
-
+//Hacer una función de nombre arriba  que recibe un objeto por parámetro e imprime en consola desde el uno, de manera ascendente
 var b=hugo.edad
 var arriba=function (b){
     if(b===1){
